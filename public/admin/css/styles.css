@@ -1,0 +1,19 @@
+.bg-login {
+    background-image: url('../assets/img/bg-login4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card.avatar {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.card.photo {
+    max-width: 160px;
+}
+.card.photo .card-body {
+    padding: 6px;
+}

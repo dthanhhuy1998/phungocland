@@ -1,0 +1,275 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    /* Base */
+    .sm-hidden {
+        display: none;
+    }
+    .lg-hidden {
+        display: block;
+    }
+    /* ./end Base */
+    .header__top .container {
+        justify-content: flex-end;
+    }
+    .header__bottom .container .col-left {
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .toggle {
+        max-width: 35px;
+    }
+    .blog {
+        margin-bottom: 15px;
+    }
+    .btn-search {
+        width: 100%;
+    }
+    .article-img,
+    .article-info {
+        width: 50%;
+    }
+    .featured-col {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .img-box {
+        height: 230px;
+    }
+    .img-box-caption {
+        height: 55px;
+    }
+    .bds-item {
+        min-height: 380px;
+        flex-direction: column;
+    }
+    .bds-item-img, 
+    .bds-item-content {
+        width: 100%;
+        height: auto;
+    }
+    .bds-item-img {
+        max-height: 200px;
+    }
+    .bds-item-content {
+        padding: 10px 0;
+    }
+    .bds-item-content-desc {
+        min-height: 110px;
+    }
+    .bds-item .date {
+        left: 10px;
+    }
+    .footer-title {
+        margin-top: 15px;
+    }
+    .logo-header {
+        max-width: 70px;
+    }
+    .sidebar {
+        position: fixed;
+        left: -85%;
+        top: 0;
+        width: 85%;
+        height: 100%;
+        background-color: #fff;
+        z-index: -1;
+        transition: all 0.45s ease;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .sidebar.open {
+        opacity: 1;
+        left: 0;
+        visibility: visible;
+        z-index: 999999;
+    }
+    .sidebar__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px 15px 10px 15px;
+        border-bottom: 1px solid #eee;
+    }
+    .sidebar__top .logo {
+        max-width: 60px;
+    }
+    .close-sidebar {
+        max-width: 24px;
+    }
+    .sidebar__bottom {
+        margin-top: 10px;
+    }
+    .sidebar__bottom .scroll-wrap {
+        max-height: 400px;
+        overflow: scroll;
+    }
+    .sm-navigate {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+    .sm-navigate li a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px 15px;
+        text-decoration: none;
+        color: #454545;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15px;
+        border-bottom: 1px solid #eee;
+        width: 100%;
+    }
+    .sm-navigate li a i {
+        color: dimgray;
+        font-size: 13px;
+    }
+    .sm-navigate li {
+        width: 100%;
+    }
+    .sm-navigate li .dropdown {
+        list-style: none;
+        padding: 3px 0 3px 15px;
+        margin: 0;
+        box-sizing: border-box;
+        display: none;
+        
+    }
+    .sm-navigate li .dropdown li a {
+        text-transform: unset;
+        font-size: 14px;
+        font-weight: normal;
+        border: none;
+    }
+    .company-name {
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .company-name .title {
+        font-size: 10px;
+        margin-bottom: 3px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .company-name .name {
+        font-weight: bold;
+    }
+    .topic-post-item-img, 
+    .topic-post-item-content {
+        width: 100%;
+    }
+    .topic-post-item-img {
+        width: 100%;
+        max-width: 100%;
+        max-height: 250px;
+    }
+    .topic-post-item-content {
+        margin-top: 10px;
+    }
+    .article-add-ons .add-ons {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .article-add-ons .add-ons li {
+        width: 50%;
+        margin-bottom: 8px;
+    }
+    .article-add-ons .add-ons li.location {
+        width: 100%;
+    }
+    .btn-fixed-group .contact-link .image {
+        max-width: 28px;
+    }
+    .btn-fixed-group {
+        left: -230px;
+    }
+    .btn-to-top {
+        width: 45px;
+        height: 45px;
+        right: 20px;
+        bottom: 90px;
+    }
+    .btn-to-top img {
+        max-width: 26px;
+    }
+    .footer-logo {
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer-logo img {
+        text-align: center;
+        max-width: 80px;
+    }
+    .content__left, .content__right {
+        width: 100%;
+        padding-right: 0;
+    }
+    .lasted-post__main,
+    .lasted-post__sub {
+        width: 100%;
+        padding-right: 0;
+    }
+    .lasted-post__main {
+        margin-bottom: 12px;
+    }
+    .blog-wrap.vertical .bds-wrapper {
+        width: 100%;
+    }
+    .related__item {
+        width: 100%;
+    }
+    .panel-post {
+        margin-top: 15px;
+    }
+    .post-horizontal.lg-post .post-horizontal__image,
+    .post-horizontal .post-horizontal__image {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .post-horizontal.lg-post .post-horizontal__title,
+    .post-horizontal .post-horizontal__title {
+        width: 100%;
+        padding: 0;
+    }
+    .post-horizontal .post-horizontal__image {
+        max-height: 250px;
+    }
+    .header-company-name .title {
+        font-size: 11px;
+    }
+    .header-company-name .name {
+        font-size: 17px;
+    }
+    .product-wrap .product__item {
+        width: calc(50% - 6px);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .container {
+        max-width: 1000px;
+    }
+}
